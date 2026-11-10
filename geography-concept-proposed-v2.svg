@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1450" viewBox="0 0 1800 1450" role="img" aria-labelledby="title desc">
+<title id="title">Green Haven V2 — Proposed Geography Concept, Revision 2</title>
+<desc id="desc">Schematic top-down plan of one connected asymmetric floating island inside the proposed 2,000 by 2,000 stud planning boundary. Revision 2 broadens Crystal River into an explorable valley with banks, flats, pools, waterfalls, boulders and wet-grove cues; clarifies route junctions and three crossings; and reserves a broader northern Sanctuary shoulder. All layout details remain proposed and await Gate A approval.</desc>
+<defs>
+  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#102b32"/><stop offset="1" stop-color="#091c26"/></linearGradient>
+  <linearGradient id="land" x2=".2" y2="1"><stop stop-color="#668f71"/><stop offset=".62" stop-color="#71956f"/><stop offset="1" stop-color="#b3a06b"/></linearGradient>
+  <linearGradient id="river" x2="0" y2="1"><stop stop-color="#8fe5dc"/><stop offset=".55" stop-color="#55bcb8"/><stop offset="1" stop-color="#3c9eaa"/></linearGradient>
+  <pattern id="grid" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M90 0H0V90" fill="none" stroke="#d4e4dc" stroke-opacity=".16" stroke-width="1"/></pattern>
+  <pattern id="meadowdots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="1.5" fill="#e5d89b" opacity=".45"/><circle cx="19" cy="18" r="1" fill="#e5d89b" opacity=".32"/></pattern>
+  <pattern id="forestdots" width="34" height="32" patternUnits="userSpaceOnUse"><path d="M7 21l6-12 6 12zM22 29l5-10 5 10z" fill="#174c40" opacity=".45"/></pattern>
+  <pattern id="ruinlines" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M4 8h14v8H4zM22 25h14v9H22z" fill="none" stroke="#d1b781" stroke-opacity=".44" stroke-width="2"/></pattern>
+  <clipPath id="islandclip"><path d="M487 244 C526 219 566 226 596 246 C625 265 658 255 688 270 C727 289 749 321 779 341 C814 364 826 399 812 431 C802 455 821 478 809 509 C798 536 817 562 799 591 C782 619 789 647 768 671 C752 690 757 717 733 737 C710 757 715 786 684 804 C652 823 637 847 601 849 C567 851 544 833 516 842 C479 854 449 838 428 817 C401 791 368 795 340 777 C308 757 304 730 278 709 C253 688 248 655 265 630 C280 607 263 579 281 553 C297 530 287 499 306 476 C326 452 316 420 338 397 C358 375 356 348 380 328 C400 310 408 277 436 266 C453 259 468 254 487 244 Z"/></clipPath>
+  <g id="boss"><circle r="22" fill="#3b2228" stroke="#f2d98c" stroke-width="3"/><circle r="16" fill="none" stroke="#f2d98c" stroke-width="1.5"/><path d="M-7 0h14M0-7v14" stroke="#f2d98c" stroke-width="2"/></g>
+  <g id="tree"><path d="M0 10V-5" stroke="#402e22" stroke-width="4"/><circle cy="-10" r="12" fill="#235747" stroke="#b9d18c" stroke-width="2"/><circle cx="-7" cy="-14" r="6" fill="#35725a"/><circle cx="7" cy="-15" r="6" fill="#35725a"/></g>
+  <g id="waterfall"><path d="M-9-13L0 13 9-13" fill="none" stroke="#e4fffa" stroke-width="3"/><path d="M0-9v17" stroke="#71e0d5" stroke-width="2" stroke-dasharray="2 3"/></g>
+  <g id="river-rock"><path d="M-11-4l6-8 10-2 8 6 4 9-8 7-12 2-9-5z" fill="#718c86" stroke="#d1d3b5" stroke-width="1.5"/><path d="M-5-12l5 8 13-4M0-4l-5 12" fill="none" stroke="#aebdaf" stroke-width="1.2"/></g>
+  <g id="bank-reeds"><path d="M-8 10Q-8 0-12-8M0 10Q2-1 0-13M8 10Q8 1 14-6" fill="none" stroke="#b8c983" stroke-width="2.5" stroke-linecap="round"/><path d="M-13-9l2-5M-1-14v-5M13-7l3-4" stroke="#dfdf9e" stroke-width="2" stroke-linecap="round"/></g>
+  <g id="junction"><circle r="11" fill="#173038" stroke="#f2d98c" stroke-width="2.5"/><text y="4" text-anchor="middle" fill="#fff2cc" font-family="Arial,sans-serif" font-size="10" font-weight="700">J</text></g>
+</defs>
+<rect width="1800" height="1450" fill="url(#bg)"/>
+<path d="M52 42H1748" stroke="#77958b" stroke-opacity=".38"/>
+<text x="60" y="78" fill="#f3e9ca" font-family="Georgia,serif" font-size="34" letter-spacing="1">GREEN HAVEN V2</text>
+<text x="60" y="109" fill="#b8c8b7" font-family="Arial,sans-serif" font-size="17" letter-spacing="2">PROPOSED GEOGRAPHY CONCEPT · REVISION 2 · GATE A REVIEW</text>
+<rect x="1455" y="49" width="278" height="42" rx="21" fill="#f2d98c" fill-opacity=".13" stroke="#f2d98c" stroke-opacity=".7"/>
+<text x="1594" y="76" text-anchor="middle" fill="#f2d98c" font-family="Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="1.4">NOT APPROVED · PROPOSED</text>
+
+<!-- Map frame: entire 2,000 x 2,000 stud planning envelope -->
+<rect x="82" y="154" width="900" height="900" rx="5" fill="#173038" stroke="#e6d7ac" stroke-width="2"/>
+<rect x="82" y="154" width="900" height="900" fill="url(#grid)"/>
+<path d="M82 154h900v900H82z" fill="none" stroke="#e6d7ac" stroke-width="2"/>
+<g fill="#d8dfd0" font-family="Arial,sans-serif" font-size="14">
+ <text x="82" y="1105">PROPOSED LOCAL GRID (studs)</text>
+ <text x="73" y="148" text-anchor="end">+1,000</text><text x="73" y="609" text-anchor="end">0</text><text x="73" y="1058" text-anchor="end">−1,000</text>
+ <text x="82" y="1071" text-anchor="middle">−1,000</text><text x="532" y="1071" text-anchor="middle">0</text><text x="982" y="1071" text-anchor="middle">+1,000</text>
+</g>
+<text x="533" y="139" text-anchor="middle" fill="#d9e6d9" font-family="Arial,sans-serif" font-size="15" letter-spacing="1.5">N ↑</text>
+
+<!-- Single continuous island mass and blended biomes -->
+<path d="M487 244 C526 219 566 226 596 246 C625 265 658 255 688 270 C727 289 749 321 779 341 C814 364 826 399 812 431 C802 455 821 478 809 509 C798 536 817 562 799 591 C782 619 789 647 768 671 C752 690 757 717 733 737 C710 757 715 786 684 804 C652 823 637 847 601 849 C567 851 544 833 516 842 C479 854 449 838 428 817 C401 791 368 795 340 777 C308 757 304 730 278 709 C253 688 248 655 265 630 C280 607 263 579 281 553 C297 530 287 499 306 476 C326 452 316 420 338 397 C358 375 356 348 380 328 C400 310 408 277 436 266 C453 259 468 254 487 244 Z" fill="url(#land)" stroke="#e5d4a3" stroke-width="4"/>
+<g clip-path="url(#islandclip)">
+ <rect x="240" y="215" width="600" height="660" fill="#819e70" opacity=".22"/>
+ <!-- region footprints overlap to suggest gradual transitions -->
+ <path d="M395 218 C482 210 567 231 604 301 C626 345 604 405 575 448 C540 494 544 542 511 576 C476 609 402 592 356 560 C312 530 291 478 307 427 C321 380 334 335 351 292 C362 263 375 235 395 218Z" fill="#28634d" opacity=".75"/>
+ <path d="M395 218 C482 210 567 231 604 301 C626 345 604 405 575 448 C540 494 544 542 511 576 C476 609 402 592 356 560 C312 530 291 478 307 427 C321 380 334 335 351 292 C362 263 375 235 395 218Z" fill="url(#forestdots)"/>
+ <path d="M424 217 C490 195 573 208 632 228 C696 246 759 278 800 329 C823 359 824 394 806 422 C786 442 752 447 718 435 C687 424 673 399 645 386 C613 371 576 371 553 342 C532 318 503 299 473 292 C450 286 433 260 424 217Z" fill="#a6a36d" opacity=".78"/>
+ <path d="M615 355 C684 331 774 362 824 415 L818 638 C782 680 733 696 683 671 C642 651 627 608 643 568 C659 525 633 485 607 459 C586 436 583 386 615 355Z" fill="#956f53" opacity=".68"/>
+ <path d="M615 355 C684 331 774 362 824 415 L818 638 C782 680 733 696 683 671 C642 651 627 608 643 568 C659 525 633 485 607 459 C586 436 583 386 615 355Z" fill="url(#ruinlines)"/>
+ <path d="M273 604 C313 560 386 554 447 580 C497 602 540 635 571 683 C603 734 577 795 534 849 L401 850 C349 821 294 787 260 721Z" fill="#c4a970" opacity=".78"/>
+ <path d="M273 604 C313 560 386 554 447 580 C497 602 540 635 571 683 C603 734 577 795 534 849 L401 850 C349 821 294 787 260 721Z" fill="url(#meadowdots)"/>
+ <!-- Crystal River exploration corridor: broad valley flats on both banks -->
+ <path d="M548 286 C566 315 606 324 591 356 C578 384 535 399 551 429 C568 462 620 460 625 492 C630 522 579 530 563 556 C547 583 580 607 607 624 C636 644 632 667 599 683 C566 699 532 710 544 741 C555 770 604 774 622 805" fill="none" stroke="#70aaa0" stroke-opacity=".54" stroke-width="104" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- Local widened flats make the river corridor traversable without erasing its bends -->
+ <path d="M532 398C546 387 570 391 581 405C587 417 578 430 562 433C544 433 531 420 532 398Z" fill="#b5c89a" fill-opacity=".7" stroke="#e2ddb2" stroke-opacity=".48" stroke-width="1.5"/>
+ <path d="M612 465C632 454 653 467 659 485C663 502 650 516 633 516C616 512 607 489 612 465Z" fill="#b5c89a" fill-opacity=".72" stroke="#e2ddb2" stroke-opacity=".48" stroke-width="1.5"/>
+ <path d="M522 545C537 534 552 540 555 554C556 568 546 580 531 580C520 574 515 558 522 545Z" fill="#b5c89a" fill-opacity=".72" stroke="#e2ddb2" stroke-opacity=".48" stroke-width="1.5"/>
+ <path d="M606 613C627 606 646 621 651 640C653 656 640 666 624 661C610 653 600 633 606 613Z" fill="#b5c89a" fill-opacity=".72" stroke="#e2ddb2" stroke-opacity=".48" stroke-width="1.5"/>
+ <path d="M518 710C534 701 550 711 551 728C549 744 537 752 523 744C513 736 511 721 518 710Z" fill="#b5c89a" fill-opacity=".72" stroke="#e2ddb2" stroke-opacity=".48" stroke-width="1.5"/>
+ <!-- Highland contours and mid-ridge contour lines -->
+ <g fill="none" stroke="#e1d9ad" stroke-opacity=".43" stroke-width="2">
+  <path d="M444 277C480 245 545 247 576 285c26 32 7 78-27 98-34 20-77 11-95-18-18-29-11-65 19-88Z"/>
+  <path d="M460 294c23-21 63-20 81 3 17 22 4 52-20 66-25 14-55 7-68-12-13-19-10-41 7-57Z"/>
+  <path d="M328 442c29-36 80-45 118-19 37 25 39 68 8 97-31 30-80 29-111 2-29-24-37-54-15-80Z"/>
+  <path d="M680 427c37-27 81-19 103 14 22 33 7 70-27 87-34 17-71 1-85-31-13-29-13-52 9-70Z"/>
+  <path d="M418 650c33-19 80-9 99 20 20 31 2 67-31 78-33 11-69-5-78-35-8-25-10-48 10-63Z"/>
+ </g>
+</g>
+<path d="M487 244 C526 219 566 226 596 246 C625 265 658 255 688 270 C727 289 749 321 779 341 C814 364 826 399 812 431 C802 455 821 478 809 509 C798 536 817 562 799 591 C782 619 789 647 768 671 C752 690 757 717 733 737 C710 757 715 786 684 804 C652 823 637 847 601 849 C567 851 544 833 516 842 C479 854 449 838 428 817 C401 791 368 795 340 777 C308 757 304 730 278 709 C253 688 248 655 265 630 C280 607 263 579 281 553 C297 530 287 499 306 476 C326 452 316 420 338 397 C358 375 356 348 380 328 C400 310 408 277 436 266 C453 259 468 254 487 244 Z" fill="none" stroke="#e5d4a3" stroke-width="4"/>
+
+<!-- Region names and internal labels -->
+<g font-family="Arial,sans-serif" fill="#f7efd8" font-weight="700" letter-spacing="1.2" text-anchor="middle">
+ <text x="640" y="240" font-size="16">VERDANT</text><text x="640" y="260" font-size="16">SANCTUARY</text>
+ <text x="390" y="418" font-size="17">WHISPERING</text><text x="390" y="440" font-size="17">FOREST</text>
+ <text x="719" y="402" font-size="17">ANCIENT</text><text x="719" y="424" font-size="17">RUINS</text>
+ <text x="380" y="710" font-size="17">MEADOW</text><text x="380" y="732" font-size="17">VILLAGE</text>
+</g>
+<path d="M633 563L613 557" stroke="#e7ffff" stroke-width="1.5"/>
+<text x="647" y="567" fill="#e7ffff" stroke="#286975" stroke-width="3" paint-order="stroke" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">CRYSTAL RIVER</text>
+<text x="474" y="258" fill="#e2ead1" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">HIGH RIDGE</text>
+<text x="329" y="656" fill="#f3e5bd" font-family="Arial,sans-serif" font-size="12" letter-spacing="1">LOWER BASIN</text>
+
+<!-- River source, winding course, pools, waterfalls -->
+<path d="M548 286 C566 315 606 324 591 356 C578 384 535 399 551 429 C568 462 620 460 625 492 C630 522 579 530 563 556 C547 583 580 607 607 624 C636 644 632 667 599 683 C566 699 532 710 544 741 C555 770 604 774 622 805" fill="none" stroke="#164b55" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+<path d="M548 286 C566 315 606 324 591 356 C578 384 535 399 551 429 C568 462 620 460 625 492 C630 522 579 530 563 556 C547 583 580 607 607 624 C636 644 632 667 599 683 C566 699 532 710 544 741 C555 770 604 774 622 805" fill="none" stroke="url(#river)" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M548 286 C566 315 606 324 591 356 C578 384 535 399 551 429 C568 462 620 460 625 492 C630 522 579 530 563 556 C547 583 580 607 607 624 C636 644 632 667 599 683 C566 699 532 710 544 741 C555 770 604 774 622 805" fill="none" stroke="#d6fff4" stroke-opacity=".65" stroke-width="2" stroke-dasharray="5 12" stroke-linecap="round"/>
+<ellipse cx="596" cy="355" rx="31" ry="22" fill="#67c8c1" stroke="#ccfff5" stroke-width="2"/><ellipse cx="625" cy="492" rx="38" ry="26" fill="#59b9b5" stroke="#ccfff5" stroke-width="2"/><ellipse cx="562" cy="557" rx="34" ry="24" fill="#59b9b5" stroke="#ccfff5" stroke-width="2"/><ellipse cx="600" cy="682" rx="39" ry="27" fill="#59b9b5" stroke="#ccfff5" stroke-width="2"/>
+<!-- Sparse symbols identify riverbank rock shelves and wet-grove pockets -->
+<g><use href="#river-rock" x="538" y="411"/><use href="#river-rock" x="646" y="450"/><use href="#river-rock" x="526" y="533"/><use href="#river-rock" x="646" y="607"/><use href="#river-rock" x="538" y="696"/><use href="#river-rock" x="638" y="762"/></g>
+<g><use href="#bank-reeds" x="525" y="439"/><use href="#bank-reeds" x="661" y="473"/><use href="#bank-reeds" x="536" y="590"/><use href="#bank-reeds" x="653" y="662"/><use href="#bank-reeds" x="528" y="756"/></g>
+<g><circle cx="548" cy="286" r="11" fill="#e5fff2" stroke="#27857c" stroke-width="3"/><path d="M548 267v-13m-8 8 8-8 8 8" fill="none" stroke="#e5fff2" stroke-width="3"/><text x="566" y="275" fill="#edfff4" font-family="Arial,sans-serif" font-size="12" font-weight="700">SOURCE</text></g>
+<g><use href="#waterfall" x="585" y="383"/><use href="#waterfall" x="571" y="583"/><use href="#waterfall" x="551" y="731"/></g>
+<g fill="#e7fff7" font-family="Arial,sans-serif" font-size="12" font-weight="700"><text x="604" y="383">FALL 1</text><text x="594" y="602">FALL 2</text><text x="563" y="755">FALL 3</text><text x="650" y="690">LOWER POOL</text></g>
+<text x="626" y="821" fill="#d6fff4" font-family="Arial,sans-serif" font-size="12" font-weight="700">OUTLET TO COVE</text>
+
+<!-- Trails: main route solid gold dash, alternate routes dotted violet -->
+<path d="M432 715 C454 684 458 650 465 617 C475 585 510 567 548 557 C570 540 595 520 625 492 C673 475 711 460 733 430 C710 390 654 368 610 355 C626 338 644 324 662 314" fill="none" stroke="#332b21" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+<path d="M432 715 C454 684 458 650 465 617 C475 585 510 567 548 557 C570 540 595 520 625 492 C673 475 711 460 733 430 C710 390 654 368 610 355 C626 338 644 324 662 314" fill="none" stroke="#f4d26f" stroke-width="5" stroke-dasharray="13 8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M432 715 C384 673 353 617 369 556 C382 506 397 478 427 450 C442 405 452 373 482 348 C471 325 450 300 430 282 C470 269 510 284 548 309 C570 326 590 343 610 355" fill="none" stroke="#211f38" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity=".6"/>
+<path d="M432 715 C384 673 353 617 369 556 C382 506 397 478 427 450 C442 405 452 373 482 348 C471 325 450 300 430 282 C470 269 510 284 548 309 C570 326 590 343 610 355" fill="none" stroke="#cab8ec" stroke-width="4" stroke-dasharray="3 9" stroke-linecap="round"/>
+<path d="M432 715 C468 742 515 762 552 770 C568 779 587 779 601 758 C629 735 671 695 711 632 C739 591 752 544 748 494 C742 466 738 445 733 430" fill="none" stroke="#211f38" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity=".6"/>
+<path d="M432 715 C468 742 515 762 552 770 C568 779 587 779 601 758 C629 735 671 695 711 632 C739 591 752 544 748 494 C742 466 738 445 733 430" fill="none" stroke="#cab8ec" stroke-width="4" stroke-dasharray="3 9" stroke-linecap="round"/>
+<g font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing=".8"><text x="432" y="635" fill="#fff1c3">MAIN ROUTE</text><text x="303" y="583" fill="#ede3ff">WEST RIDGE LOOP</text><text x="633" y="747" fill="#ede3ff">LOW-RIVER / EAST-RIDGE LOOP</text></g>
+<g><use href="#junction" x="446" y="682"/><use href="#junction" x="465" y="617"/><use href="#junction" x="733" y="430"/></g>
+
+<!-- Proposed crossings -->
+<g stroke="#eee4ca" stroke-width="4" stroke-linecap="round"><path d="M610 480l30 24M607 487l30 24M604 494l30 24M554 548l-12 22M561 545l-12 22M568 542l-12 22M574 762l18 22M580 759l18 22M586 756l18 22"/></g>
+<g fill="#f6e7c5" font-family="Arial,sans-serif" font-size="10" font-weight="700"><text x="646" y="477">B · UPPER BRIDGE</text><text x="477" y="538">A · POOL STEPS</text><text x="488" y="797">C · LOWER BRIDGE</text></g>
+
+<!-- Boss arenas -->
+<g transform="translate(354 507)"><use href="#boss"/><text y="5" text-anchor="middle" fill="#f2d98c" font-family="Arial,sans-serif" font-size="14" font-weight="700">1</text></g>
+<g transform="translate(771 526)"><use href="#boss"/><text y="5" text-anchor="middle" fill="#f2d98c" font-family="Arial,sans-serif" font-size="14" font-weight="700">2</text></g>
+<circle cx="662" cy="314" r="38" fill="#c7c38c" fill-opacity=".13" stroke="#efe0aa" stroke-width="2" stroke-dasharray="5 6"/>
+<g transform="translate(662 314)"><use href="#boss"/><text y="5" text-anchor="middle" fill="#f2d98c" font-family="Arial,sans-serif" font-size="14" font-weight="700">3</text></g>
+<text x="710" y="318" fill="#f8edcf" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing=".8">SUMMIT BOWL</text>
+
+<!-- Landmarks -->
+<g><circle cx="421" cy="750" r="14" fill="#f2d98c" stroke="#493d2a" stroke-width="3"/><path d="M414 756v-14l7-7 7 7v14M418 756v-8h6v8" fill="#785c3c" stroke="#f8e8b9" stroke-width="1.5"/><text x="386" y="786" fill="#fff0d0" font-family="Arial,sans-serif" font-size="11" font-weight="700">VILLAGE TOWER</text></g>
+<g><use href="#tree" x="450" y="274"/><text x="402" y="251" fill="#eff4d6" font-family="Arial,sans-serif" font-size="11" font-weight="700">ELDER TREE</text></g>
+<g><path d="M758 451v-25h10v25m-19 0h28M758 426l5-8 5 8" fill="none" stroke="#f2d8a5" stroke-width="4"/><text x="766" y="466" fill="#fff0d0" font-family="Arial,sans-serif" font-size="11" font-weight="700">BROKEN ARCH</text></g>
+<path d="M636 427l-10-13 10-14 10 14z" fill="#b4e2dd" stroke="#e5fff9" stroke-width="2"/><text x="646" y="413" fill="#edfffb" font-family="Arial,sans-serif" font-size="11" font-weight="700">CRYSTAL OVERLOOK</text>
+
+<!-- 500-stud scale bar -->
+<g transform="translate(112 1014)" font-family="Arial,sans-serif" fill="#ecf0df"><path d="M0 0h225M0-7v14M112-7v14M225-7v14" stroke="#ecf0df" stroke-width="3"/><text x="0" y="25" font-size="12">0</text><text x="112" y="25" text-anchor="middle" font-size="12">250</text><text x="225" y="25" text-anchor="end" font-size="12">500 studs</text></g>
+<text x="531" y="1021" fill="#b9c8bc" font-family="Arial,sans-serif" font-size="12">ISLAND SPAN ≈1,300–1,600 STUDS (PROPOSED RANGE; DRAWN ≈1,300 × 1,400)</text>
+
+<!-- Right hand review panel -->
+<g font-family="Arial,sans-serif">
+ <text x="1040" y="177" fill="#f3e9ca" font-family="Georgia,serif" font-size="24">Geographic composition</text>
+ <text x="1040" y="210" fill="#b9c8bc" font-size="15">One landmass · blended shoulders · connected routes</text>
+ <path d="M1040 228H1710" stroke="#77958b" stroke-opacity=".55"/>
+ <text x="1040" y="266" fill="#f2d98c" font-size="14" font-weight="700" letter-spacing="1.2">PROPOSED ADJACENCY</text>
+ <g fill="#e6ead8" font-size="15">
+  <text x="1040" y="299">• Meadow Village opens into the lower river</text><text x="1057" y="322">basin and the forest edge.</text>
+  <text x="1040" y="355">• Whispering Forest rises along the west bank;</text><text x="1057" y="378">Ancient Ruins terrace faces it across the river.</text>
+  <text x="1040" y="411">• Verdant Sanctuary crowns the north and blends</text><text x="1057" y="434">down into both west forest and east ruins.</text>
+ </g>
+ <text x="1040" y="481" fill="#f2d98c" font-size="14" font-weight="700" letter-spacing="1.2">RIVER + TRAVERSAL</text>
+ <g fill="#e6ead8" font-size="15">
+  <text x="1040" y="514">A wide bank corridor opens around the river:</text><text x="1040" y="537">terraced flats, boulder shelves, wet-grove pockets,</text><text x="1040" y="560">linked pools and three falls, from spring to cove.</text>
+  <text x="1040" y="594">MAIN · plaza → river walk → pool steps → bridge</text><text x="1040" y="617">→ ruins ridge → Sanctuary summit bowl.</text>
+  <text x="1040" y="651">ALT A · forest ridge / Elder Tree → upper saddle.</text><text x="1040" y="674">ALT B · lower river → bridge → east terrace / ruins.</text>
+ </g>
+ <text x="1040" y="721" fill="#f2d98c" font-size="14" font-weight="700" letter-spacing="1.2">ELEVATION LOGIC · RELATIVE ONLY</text>
+ <path d="M1057 751v106" stroke="#d5d0a9" stroke-width="2" marker-end="url(#none)"/>
+ <g font-size="14" fill="#e6ead8"><text x="1076" y="760">HIGH · northern spring ridge / summit bowl</text><text x="1076" y="804">MID · west wooded ridge + east ruins terrace</text><text x="1076" y="848">LOW · southern village basin + lower pools</text></g>
+ <path d="M1040 878H1710" stroke="#77958b" stroke-opacity=".55"/>
+ <text x="1040" y="914" fill="#f2d98c" font-size="14" font-weight="700" letter-spacing="1.2">PROPOSED ARENAS + LANDMARKS</text>
+ <g fill="#e6ead8" font-size="14">
+  <text x="1040" y="946">① Forest Slime King — west basin clearing</text>
+  <text x="1040" y="972">② Ancient Guardian — eastern courtyard terrace</text>
+  <text x="1040" y="998">③ Verdant Dragon — north summit bowl</text>
+  <text x="1040" y="1030">Village tower · main falls · broken arch · Elder Tree</text>
+ </g>
+</g>
+
+<g font-family="Arial,sans-serif" fill="#e6ead8" font-size="13">
+ <text x="1040" y="1060" fill="#f2d98c" font-size="14" font-weight="700" letter-spacing="1.1">REGION SPACE CHECK · PROPOSED</text>
+ <text x="1040" y="1084">Sanctuary now reserves a broad north shoulder for Elder Tree,</text>
+ <text x="1040" y="1105">exploration terraces, a summit approach and a separate boss bowl.</text>
+ <text x="1040" y="1126">River flats widen its play space; the five regions remain unequal,</text>
+ <text x="1040" y="1147">connected and blended. Final sufficiency needs Director review.</text>
+</g>
+
+<!-- Legend strip -->
+<rect x="1032" y="1162" width="694" height="198" rx="8" fill="#183139" stroke="#6d8981" stroke-opacity=".55"/>
+<text x="1052" y="1192" fill="#f3e9ca" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">LEGEND</text>
+<g font-family="Arial,sans-serif" font-size="12" fill="#e6ead8">
+ <rect x="1053" y="1208" width="18" height="12" rx="3" fill="#c4a970"/><text x="1078" y="1219">Meadow Village</text>
+ <rect x="1256" y="1208" width="18" height="12" rx="3" fill="#28634d"/><text x="1281" y="1219">Whispering Forest</text>
+ <path d="M1471 1214h22" stroke="#70aaa0" stroke-width="12" stroke-linecap="round"/><path d="M1471 1214h22" stroke="#6bd3ca" stroke-width="4" stroke-linecap="round"/><text x="1501" y="1219">River + bank zone</text>
+ <rect x="1053" y="1238" width="18" height="12" rx="3" fill="#956f53"/><text x="1078" y="1249">Ancient Ruins</text>
+ <rect x="1256" y="1238" width="18" height="12" rx="3" fill="#a6a36d"/><text x="1281" y="1249">Verdant Sanctuary</text>
+ <path d="M1471 1244h22" stroke="#f4d26f" stroke-width="4" stroke-dasharray="7 4"/><text x="1501" y="1249">Main route</text>
+ <path d="M1053 1274h22" stroke="#cab8ec" stroke-width="4" stroke-dasharray="2 6"/><text x="1082" y="1279">Alternate route</text>
+ <path d="M1256 1274h22" stroke="#eee4ca" stroke-width="3"/><text x="1285" y="1279">Crossing A/B/C</text>
+ <circle cx="1479" cy="1274" r="9" fill="#3b2228" stroke="#f2d98c" stroke-width="2"/><text x="1497" y="1279">Boss arena</text>
+ <use href="#river-rock" x="1061" y="1315" transform="translate(1061 1315) scale(.68) translate(-1061 -1315)"/><text x="1082" y="1319">Bank rocks / reeds</text>
+ <use href="#junction" x="1265" y="1314" transform="translate(1265 1314) scale(.75) translate(-1265 -1314)"/><text x="1285" y="1319">Route junction</text>
+</g>
+<text x="60" y="1380" fill="#b8c8b7" font-family="Arial,sans-serif" font-size="13">All region footprints, landmark placements, routes, crossings, source and outlets are SCHEMATIC PROPOSALS. Local grid positions are illustrative only; coordinates and elevations are not approved.</text>
+<text x="60" y="1406" fill="#b8c8b7" font-family="Arial,sans-serif" font-size="13">Planning envelope: 2,000 × 2,000 studs. Proposed land span: approximately 1,300–1,600 studs; drawn ≈1,300 × 1,400. Playable surface estimate 0.8–1.1M studs² remains proposed and unverified.</text>
+<text x="60" y="1432" fill="#f2d98c" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing=".8">GATE A REVIEW REQUIRED · NO DESIGN OR IMPLEMENTATION APPROVAL IMPLIED</text>
+</svg>
